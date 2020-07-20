@@ -1,0 +1,59 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+/* Generali */
+.pad_tombottom50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* fine generali */
+
+/* Header */
+/* Barra di navigazione */
+nav {
+  background-color: blue;
+  height: 70px;
+  line-height: 70px;
+}
+
+nav .logo {
+  background-color: lightblue;
+}
+
+nav .main-menu {
+  background-color: darkblue;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+nav .main-menu li,
+nav .user-menu li {
+  display: inline-block;
+  padding: 0 3%;
+}
+
+nav .user-menu {
+  background-color: purple;
+}
+/* fine barra di navigazione */
+.lc_jumbotron {
+  background-color: pink;
+}
+
+.jumbo_title {
+  background-color: red;
+  height: 300px;
+}
+
+.jumbo_form {
+  background-color: white;
+  height: 300px;
+}
+/* fine header */
