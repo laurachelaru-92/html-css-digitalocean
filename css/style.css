@@ -134,7 +134,7 @@ section.regions {
 /* fine sezione small carousel */
 /* Sezione "get started" */
 section.get_started {
-  background-color: darkblue;
+  background-color: blue;
   color: white;
 }
 
@@ -149,3 +149,28 @@ section.get_started {
 }
 /* fine sezione "get started" */
 /* fine main */
+
+/* Footer */
+footer {
+  background-color: darkblue;
+  color: white;
+}
+
+footer .logo {
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-weight: bold;
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.list a {
+  text-decoration: none;
+  color: white;
+}
+/* fine footer */
