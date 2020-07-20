@@ -91,11 +91,17 @@ section.deploy ul {
 .big_carousel_screen {
   height: 300px;
   background-color: white;
-  vertical-align: middle;
 }
 
-.big_carousel i {
-  vertical-align: middle;
+.big_carousel .chevron {
+  line-height: 300px;
 }
 /* fine sezione big carousel */
+/* Sezione features */
+.features_boxes > div {
+  height: 150px;
+  background-color: lightgreen;
+  border: 2px solid green;
+}
+/* fine sezione features */
 /* fine main */
