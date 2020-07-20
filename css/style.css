@@ -5,7 +5,7 @@ padding: 0;
 }
 
 /* Generali */
-.pad_tombottom50 {
+.pad_topbottom50 {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -17,6 +17,10 @@ nav {
   background-color: blue;
   height: 70px;
   line-height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 nav .logo {
@@ -45,6 +49,7 @@ nav .user-menu {
 /* fine barra di navigazione */
 .lc_jumbotron {
   background-color: pink;
+  margin-top: 70px;
 }
 
 .jumbo_title {
@@ -85,7 +90,8 @@ section.deploy ul {
 }
 /* fine sezione deploy */
 /* Sezione big carousel */
-.big_carousel {
+.big_carousel,
+.small_carousel {
   background-color: lightgrey;
 }
 .big_carousel_screen {
@@ -104,4 +110,42 @@ section.deploy ul {
   border: 2px solid green;
 }
 /* fine sezione features */
+/* Sezione regions */
+section.regions {
+  background-image: linear-gradient(to bottom, blue, darkblue);
+  color: white;
+}
+
+.first_column > div,
+.second_column > div {
+  padding-bottom: 5px;
+  border-bottom: 2px solid grey;
+}
+/* fine sezione regions */
+/* Sezione small carousel */
+.small_carousel_screen {
+  height: 200px;
+  background-color: white;
+}
+
+.small_carousel .chevron {
+  line-height: 200px;
+}
+/* fine sezione small carousel */
+/* Sezione "get started" */
+section.get_started {
+  background-color: darkblue;
+  color: white;
+}
+
+.get_started a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 7px;
+  background-color: white;
+  color: blue;
+  text-decoration: none;
+}
+/* fine sezione "get started" */
 /* fine main */
