@@ -57,3 +57,45 @@ nav .user-menu {
   height: 300px;
 }
 /* fine header */
+
+/* Main */
+/* Sezione logos */
+section.logos {
+  background-color: lightgrey;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.logos p {
+  padding-top: 10px;
+}
+/* fine sezione logos */
+/* Sezione deploy */
+section.deploy ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 10px;
+  border-left: 2px solid grey;
+}
+
+.apps-boxes > div {
+  background-color: lightblue;
+  border: 2px solid red;
+  height: 100px;
+}
+/* fine sezione deploy */
+/* Sezione big carousel */
+.big_carousel {
+  background-color: lightgrey;
+}
+.big_carousel_screen {
+  height: 300px;
+  background-color: white;
+  vertical-align: middle;
+}
+
+.big_carousel i {
+  vertical-align: middle;
+}
+/* fine sezione big carousel */
+/* fine main */
