@@ -162,7 +162,8 @@ nav .user-menu li {
 }
 
 .jumbo_form p a:hover,
-.logos a:hover {
+.logos a:hover,
+.features a:hover {
   color: #296EF6;
 }
 /* fine header */
@@ -205,7 +206,8 @@ section.logos {
 /* fine sezione logos */
 /* Sezione deploy */
 .deploy,
-.big_carousel {
+.big_carousel,
+.features {
   color: #595959;
 }
 
@@ -228,12 +230,14 @@ h2 {
   padding: 5px 0;
 }
 
-.deploy h5 {
+.deploy h5,
+.features h5 {
   font-size: 1.7rem;
   color: #000;
 }
 
-.apps_boxes img {
+.apps_boxes img,
+.features_boxes img {
   max-width: 100%;
   height: auto;
   padding-top: 15px;
@@ -251,33 +255,41 @@ h2 {
   font-size: 1.8rem;
 }
 
-.big_carousel .row:nth-child(2) {
+.big_carousel .row:nth-child(2),
+.small_carousel .row:nth-child(2) {
   margin-top: 25px;
   margin-bottom: 15px;
 }
-.big_carousel_screen img {
+
+.carousel_screen img {
   vertical-align: middle;
   max-width: 70%;
   height: auto;
   margin: 0 25px;
 }
 
-.big_carousel .fa-circle {
+.big_carousel .fa-circle,
+.small_carousel .fa-circle {
   font-size: 10px;
   color: #296EF6;
 }
 /* fine sezione big carousel */
 /* Sezione features */
-.features_boxes > div {
-  height: 150px;
-  background-color: lightgreen;
-  border: 2px solid green;
+.features_boxes a {
+  font-weight: bold;
+  color: #6c9bf9;
 }
 /* fine sezione features */
 /* Sezione regions */
-section.regions {
+section.regions,
+section.get_started {
   background-image: linear-gradient(to bottom, blue, darkblue);
-  color: white;
+  color: #fff;
+}
+
+.regions h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .first_column > div,
@@ -287,21 +299,9 @@ section.regions {
 }
 /* fine sezione regions */
 /* Sezione small carousel */
-.small_carousel_screen {
-  height: 200px;
-  background-color: white;
-}
 
-.small_carousel .chevron {
-  line-height: 200px;
-}
 /* fine sezione small carousel */
 /* Sezione "get started" */
-section.get_started {
-  background-color: blue;
-  color: white;
-}
-
 .get_started a {
   display: inline-block;
   margin-top: 10px;
@@ -316,7 +316,7 @@ section.get_started {
 
 /* Footer */
 footer {
-  background-color: darkblue;
+  background-color: #010E28;
   color: white;
 }
 
@@ -347,10 +347,10 @@ footer ul {
 }
 
 @media screen and (max-width: 768px) {
-  .big_carousel_screen i {
+  .carousel_screen i {
     display: none;
   }
-  .big_carousel_screen img {
+  .carousel_screen img {
     max-width: 85%;
     height: auto;
   }
