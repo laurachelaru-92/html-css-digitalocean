@@ -161,27 +161,62 @@ nav .user-menu li {
 /* Main */
 /* Sezione logos */
 section.logos {
-  background-color: lightgrey;
   padding-top: 30px;
   padding-bottom: 10px;
+  background-color: #F3F5F9;
 }
 
-.logos p {
-  padding-top: 10px;
+.logos h5 {
+  color: grey;
+}
+
+.logos_container > div {
+  height: 70px;
+  position: relative;
+}
+
+.logos_container img {
+  max-width: 90%;
+  height: auto;
+  max-height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.logos a {
+  margin-top: 10px;
+  color: #6c9bf9;
+}
+
+.logos a i {
+  padding-left: 5px;
+}
+
+.logos a:hover {
+  color: #296EF6;
 }
 /* fine sezione logos */
 /* Sezione deploy */
-section.deploy ul {
+.deploy {
+  color: #595959;
+}
+
+.deploy ul {
   list-style: none;
   margin: 0;
+  margin-top: 20px;
   padding-left: 10px;
   border-left: 2px solid grey;
 }
 
-.apps-boxes > div {
-  background-color: lightblue;
-  border: 2px solid red;
-  height: 100px;
+.app-boxes > div {
+  margin-bottom: 10px;
+}
+
+.app-boxes > div > img {
+  display: block;
 }
 /* fine sezione deploy */
 /* Sezione big carousel */
