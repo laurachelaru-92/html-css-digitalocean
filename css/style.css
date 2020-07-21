@@ -287,15 +287,42 @@ section.get_started {
   color: #fff;
 }
 
-.regions h2 {
+.regions h2,
+.get_started h2 {
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 .first_column > div,
 .second_column > div {
-  padding-bottom: 5px;
-  border-bottom: 2px solid grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+.regions_lists {
+  font-weight: bold;
+}
+
+.regions_lists .acronym {
+  padding-left: 0;
+}
+
+.regions_lists .city {
+  color: rgba(255,255,255,0.8);
+  font-weight: 400;
+}
+
+.regions_lists .speed {
+  padding-right: 0;
+}
+
+.regions_lists .speed a {
+  color: #00d7d2;
+}
+
+.regions_lists .speed a:hover {
+  color: #0069ff;
 }
 /* fine sezione regions */
 /* Sezione small carousel */
@@ -304,12 +331,16 @@ section.get_started {
 /* Sezione "get started" */
 .get_started a {
   display: inline-block;
-  margin-top: 10px;
-  padding: 20px;
+  padding: 15px 20px;
   border-radius: 7px;
-  background-color: white;
+  background-color: #fff;
   color: blue;
+  font-weight: bold;
   text-decoration: none;
+}
+
+.get_started a:hover {
+  background-color: lightgrey;
 }
 /* fine sezione "get started" */
 /* fine main */
