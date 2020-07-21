@@ -151,9 +151,9 @@ nav .user-menu li {
 }
 
 .jumbo_form .google_signup img {
-  max-width: 30px;
+  max-width: 35px;
   height: auto;
-  padding: 3px;
+  padding: 3px 3px 3px 7px;
 }
 
 .jumbo_form p a {
@@ -348,25 +348,59 @@ section.get_started {
 /* Footer */
 footer {
   background-color: #010E28;
-  color: white;
+  color: rgba(255,255,255,0.6);
 }
 
 footer .logo {
   margin-bottom: 20px;
 }
 
+footer .logo img {
+  width: 40px;
+  height: auto;
+  margin-bottom: 7px;
+}
+
 footer p {
-  font-weight: bold;
   margin: 0;
 }
 
-footer ul {
-  list-style: none;
+footer .logo .made_in {
+color: rgba(255,255,255,0.4);
+margin-bottom: 5px;
 }
 
-.list a {
+.footer_icons ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.footer_icons ul li a {
+  font-size: 20px;
+  color: rgba(255,255,255,0.6);
+}
+
+.footer_icons ul li a:hover,
+.lc_list a:hover {
+  color: #fff;
+}
+
+.lc_list {
+  margin-bottom: 15px;
+}
+
+.lc_list p {
+  font-weight: bold;
+  color: #fff;
+}
+
+.lc_list ul li {
+  padding: 5px 0;
+}
+
+.lc_list a {
   text-decoration: none;
-  color: white;
+  color: rgba(255,255,255,0.6);
 }
 /* fine footer */
 
