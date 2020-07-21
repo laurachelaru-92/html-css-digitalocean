@@ -132,19 +132,18 @@ nav .user-menu li {
 
 .jumbo_form .create_account {
   background-color: #6c9bf9;
-  border: 2px solid #6c9bf9;
   color: #fff;
 }
 
 .jumbo_form .create_account:hover {
-  background-color: #fff;
-  color: #6c9bf9;
+  background-color: #296EF6;
 }
 
 .jumbo_form .google_signup {
   color: #999966;
   font-weight: bold;
   box-shadow: 1px 1px 5px #888888;
+  margin-bottom: 10px;
 }
 
 .jumbo_form .google_signup:hover {
@@ -155,6 +154,16 @@ nav .user-menu li {
   max-width: 30px;
   height: auto;
   padding: 3px;
+}
+
+.jumbo_form p a {
+  color: #6c9bf9;
+  text-decoration: underline;
+}
+
+.jumbo_form p a:hover,
+.logos a:hover {
+  color: #296EF6;
 }
 /* fine header */
 
@@ -193,44 +202,69 @@ section.logos {
 .logos a i {
   padding-left: 5px;
 }
-
-.logos a:hover {
-  color: #296EF6;
-}
 /* fine sezione logos */
 /* Sezione deploy */
-.deploy {
+.deploy,
+.big_carousel {
   color: #595959;
 }
 
-.deploy ul {
+h2 {
+  font-size: 3rem;
+}
+
+.deploy_list {
+  padding-top: 15px;
+}
+
+.deploy_list ul {
   list-style: none;
   margin: 0;
-  margin-top: 20px;
   padding-left: 10px;
   border-left: 2px solid grey;
 }
 
-.app-boxes > div {
-  margin-bottom: 10px;
+.deploy_list ul li {
+  padding: 5px 0;
 }
 
-.app-boxes > div > img {
-  display: block;
+.deploy h5 {
+  font-size: 1.7rem;
+  color: #000;
 }
+
+.apps_boxes img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 15px;
+}
+
 /* fine sezione deploy */
 /* Sezione big carousel */
 .big_carousel,
 .small_carousel {
-  background-color: lightgrey;
-}
-.big_carousel_screen {
-  height: 300px;
-  background-color: white;
+  background-color: #F3F5F9;
 }
 
-.big_carousel .chevron {
-  line-height: 300px;
+.deploy > .container > .row:first-child p,
+.big_carousel .row:first-child p {
+  font-size: 1.8rem;
+}
+
+.big_carousel .row:nth-child(2) {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.big_carousel_screen img {
+  vertical-align: middle;
+  max-width: 70%;
+  height: auto;
+  margin: 0 25px;
+}
+
+.big_carousel .fa-circle {
+  font-size: 10px;
+  color: #296EF6;
 }
 /* fine sezione big carousel */
 /* Sezione features */
@@ -309,6 +343,16 @@ footer ul {
 @media screen and (min-width: 769px) and (max-width: 992px) {
   html {
     font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .big_carousel_screen i {
+    display: none;
+  }
+  .big_carousel_screen img {
+    max-width: 85%;
+    height: auto;
   }
 }
 /* FINE MEDIA QUERIES */
