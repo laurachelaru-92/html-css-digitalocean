@@ -88,6 +88,7 @@ nav .user-menu li {
 
 .jumbo_title {
   color: #fff;
+  margin-bottom: 20px;
 }
 
 .jumbo_title h1 {
@@ -163,7 +164,8 @@ nav .user-menu li {
 
 .jumbo_form p a:hover,
 .logos a:hover,
-.features a:hover {
+.features a:hover,
+.rockerbox_content a:hover {
   color: #296EF6;
 }
 /* fine header */
@@ -261,7 +263,7 @@ h2 {
   margin-bottom: 15px;
 }
 
-.carousel_screen img {
+.big_carousel .carousel_screen img {
   vertical-align: middle;
   max-width: 70%;
   height: auto;
@@ -326,7 +328,46 @@ section.get_started {
 }
 /* fine sezione regions */
 /* Sezione small carousel */
+.rockerbox_content {
+  display: inline-block;
+  background-color: #fff;
+  vertical-align: middle;
+  width: 70%;
+  height: 100%;
+  margin: 0 25px;
+  padding: 30px;
+}
 
+.rockerbox_content img {
+  max-width: 50%;
+  height: auto;
+  max-height: 30px;
+}
+
+.rockerbox_content .quote {
+  margin: 20px 0;
+  display: inline-block;
+  width: 90%;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.rockerbox_content i {
+  color: #c2c9d6;
+}
+.rockerbox_content .fa-quote-left {
+  vertical-align: text-top;
+  margin-right: 6px;
+}
+
+.rockerbox_content .fa-quote-right {
+  vertical-align: text-bottom;
+  margin-left: 6px;
+}
+
+.rockerbox_content a {
+  color: #6c9bf9;
+}
 /* fine sezione small carousel */
 /* Sezione "get started" */
 .get_started a {
@@ -412,7 +453,11 @@ margin-bottom: 5px;
 }
 
 @media screen and (max-width: 768px) {
-  .carousel_screen i {
+  html {
+    font-size: 9px;
+  }
+  .carousel_screen .fa-chevron-left,
+  .carousel_screen .fa-chevron-right {
     display: none;
   }
   .carousel_screen img {
