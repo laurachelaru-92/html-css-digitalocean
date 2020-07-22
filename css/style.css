@@ -77,8 +77,8 @@ nav .user-menu li {
 .bars a {
   font-size: 2rem;
 }
-
 /* fine barra di navigazione */
+/* Jumbotron */
 .lc_jumbotron {
   background-image: url(../img/jumbotron.svg);
   background-repeat: no-repeat;
@@ -168,6 +168,7 @@ nav .user-menu li {
 .rockerbox_content a:hover {
   color: #296EF6;
 }
+/* fine jumbotron */
 /* fine header */
 
 /* Main */
@@ -198,7 +199,8 @@ section.logos {
 }
 
 .logos a {
-  margin-top: 10px;
+  display: inline-block;
+  margin: 10px;
   color: #6c9bf9;
 }
 
@@ -209,7 +211,8 @@ section.logos {
 /* Sezione deploy */
 .deploy,
 .big_carousel,
-.features {
+.features,
+.small_carousel {
   color: #595959;
 }
 
