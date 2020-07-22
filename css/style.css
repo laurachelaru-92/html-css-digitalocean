@@ -95,6 +95,10 @@ nav .user-menu li {
   font-size: 4.5rem;
 }
 
+.jumbo_title p {
+  font-size: 1.8rem;
+}
+
 .jumbo_form {
   background-color: white;
   padding: 20px 10px;
@@ -458,7 +462,7 @@ margin-bottom: 5px;
 .shark {
   position: relative;
   top: 20px;
-  background-image: url(../img/shark-alert.png);
+  background-image: url(../img/shark-alert.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
